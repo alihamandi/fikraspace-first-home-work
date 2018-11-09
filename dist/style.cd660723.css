@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+#logo img{
+    width: 220px;
+    position: relative;
+    left: -10px;
+    margin-bottom: 100px;
+}
+
+#container{
+    width: 80%;
+    margin: auto;
+}
+#content{
+    display: flex;
+}
+#recentLinks{
+flex-grow: 1;
+max-width: 66%;
+padding-right: 25px;
+/* this mean that this object with take the percentage of 2:3 cause its claculate all of the numbers we have like the mostviewed links is just take one area and the recentlinks takes two so its three areas and if we continue to do that and increase the areas number it will continue to divide it as the geven numbers and the defult value of the flex grow of the elemnt is the half of the all areas if we dont give it a value by it self like if we delete the flex grow value for the mostViewed it will take 2 areas out of 4 so we have to give it a value to divide the areas by a given number - it means that all elements have the same area if we dont give a value to it*/
+}
+#content #mostViewed{
+flex-grow: 1;
+}
+
+/*#two{
+    display: flex;
+    height: 100hv;
+    margin: 10% 30%;
+}*/
+
+/* #hello{
+
+flex-grow: 1;
+flex-basis: 100px;
+background-color: red;
+/*flex warp to wrap the content if its below some px 
+
+} 
+#hi{
+flex-grow: 1;
+flex-basis: 50px;
+background-color: blue;
+}*/
+
+#recentLinks article{
+    display: flex;
+    max-height: 100px;
+    padding-bottom: 20px;
+    
+}
+
+/*or*/
+
+/*#recentLinks article .div0{
+    margin: 25px;
+}*/
+
+.images0{
+    margin:0px 10px 10px 0px;
+}
+
+article h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+article .div0{
+    position: relative;
+}
+article .div0 time{
+    color: #399df2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter ;
+    position: relative;
+    bottom: -5px;
+    left: 0px;
+    font-size: 10pt;
+}
+/*.layer{
+    background-color: rgba(17, 17, 16, 0.301);
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }*/
+
+#mostViewed{
+    max-width: 33%;
+    text-align: center;
+}
+#mostViewed{
+    max-height: 300px;
+}
+.img {
+
+margin: 0px;
+padding: 0px;
+position: relative;
+align-items: center;
+/* there is no need for this shit*/
+}
+.textOnPhoto {
+    position: relative;
+    color: white;
+    left: 80px;
+    top: -75px;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 225px;
+}
+
+.mostDiv img{
+    filter: brightness(50%);
+    padding: 0px;
+    margin: 0px;
+}
+.headTitle1{
+    font-family: Arial, Helvetica, sans-serif  ; font-size: 18pt ;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+.headTitle2{
+    font-family: Arial, Helvetica, sans-serif  ; font-size: 18pt ;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
