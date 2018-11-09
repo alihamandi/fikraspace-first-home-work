@@ -1,3 +1,3 @@
 # Ali Hamandi
-## this how its look like
+## this how it's look like
 ![MY HTML](readme.JPG)
